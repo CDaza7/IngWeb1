@@ -13,59 +13,9 @@ body
     border-radius: 20px;
 }
 
-#directory
-{
-    width: 900px;
-    margin: auto;
-    text-align: center;
-    border-radius: 20px;
-    padding-top: 20px;
-}
-
-h1
-{
-    font-size:x-large;
-    color:#1b2330e5;
-    margin-bottom: 35px;
-}
-
-.card
+#main_title
 {
     display: inline-block;
-    width:315px;
-    height: auto;
-    margin: 15px;
-    border: 1px solid #1b2330;
-    box-shadow: 2px 2px 8px 4px #1b23309c;
-    border-radius:15px;
-    font-family: sans-serif;
-}
-
-.card img
-{
-    width: auto;
-    height: 200px;
-    margin: 15px;
-    border-radius: 15px;
-}
-
-.info
-{
-    background: #1b2330;
-    border-radius:0 0 15px 15px;
-    padding: 10px;
-    text-align:center;
-}
-
-.info a
-{
-  text-decoration: none;
-  color: white;
-}
-
-.info:hover 
-{
-    background-color: #d06321;
 }
 
 #logo
@@ -75,11 +25,6 @@ h1
     padding-top: 15px;
     height: 100px;
     width: 110px;
-}
-
-#main_title
-{
-    display: inline-block;
 }
 
 nav
@@ -121,4 +66,75 @@ nav a:hover
 {
     color: aliceblue;
     border-bottom: 3px solid aliceblue;
+}
+
+#directory
+{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+h1
+{
+    font-size:x-large;
+    color:#1b2330e5;
+    margin-bottom: 35px;
+}
+
+.card
+{
+    display: inline-block;
+    width:315px;
+    height: auto;
+    margin: 15px;
+    border: 1px solid #1b2330;
+    box-shadow: 2px 2px 8px 4px #1b23309c;
+    border-radius:15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card img
+{
+    width: auto;
+    height: 200px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.info
+{
+    background: #1b2330;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+}
+
+.info a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.info:hover 
+{
+    background-color: #d06321;
+}
+
+#search
+{
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+#searchbar
+{
+    width: 500px;
 }
