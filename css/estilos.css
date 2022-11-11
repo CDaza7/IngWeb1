@@ -9,7 +9,7 @@ body
 {
     width: 900px;
     margin: auto;
-    background-color: #1b2330a8;
+    background-color: #1b2330;
     border-radius: 20px;
 }
 
@@ -26,7 +26,7 @@ h1
 {
     font-size:x-large;
     color:#1b2330e5;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .card
@@ -35,8 +35,8 @@ h1
     width:315px;
     height: auto;
     margin: 15px;
-    border: 1px solid rgb(128, 125, 125);
-    box-shadow: 2px 2px 8px 4px #998787d1;
+    border: 1px solid #1b2330;
+    box-shadow: 2px 2px 8px 4px #1b23309c;
     border-radius:15px;
     font-family: sans-serif;
 }
@@ -49,24 +49,23 @@ h1
     border-radius: 15px;
 }
 
-.pie{
-  background: #6699ff;
-  border-radius:0 0 15px 15px;
-  padding: 10px;
-  text-align:center;
+.info
+{
+    background: #1b2330;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
 }
-.pie a{
+
+.info a
+{
   text-decoration: none;
   color: white;
 }
-.pie a:after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  content: ""
+
+.info:hover 
+{
+    background-color: #d06321;
 }
 
 #logo
