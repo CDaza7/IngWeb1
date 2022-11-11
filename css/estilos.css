@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgba(212, 164, 252, 0.788);
+    background-color: rgba(212, 164, 252, 0.733);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #180101;
 }
@@ -9,6 +9,64 @@ body
 {
     width: 900px;
     margin: auto;
+    background-color: #1b2330a8;
+    border-radius: 20px;
+}
+
+#directory
+{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+h1
+{
+    font-size:x-large;
+    color:#1b2330e5;
+    margin-bottom: 25px;
+}
+
+.card
+{
+    display: inline-block;
+    width:315px;
+    height: auto;
+    margin: 15px;
+    border: 1px solid rgb(128, 125, 125);
+    box-shadow: 2px 2px 8px 4px #998787d1;
+    border-radius:15px;
+    font-family: sans-serif;
+}
+
+.card img
+{
+    width: auto;
+    height: 200px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.pie{
+  background: #6699ff;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: ""
 }
 
 #logo
@@ -29,7 +87,7 @@ nav
 {
     display: inline-block;
     width: 740px;
-    text-align: right;
+    text-align: left;
     margin-bottom: 0px;
 
 }
@@ -37,7 +95,8 @@ nav
 nav li 
 {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 25px;
+    margin-bottom: 20px;
 }
 
 nav ul 
@@ -49,6 +108,8 @@ nav a
 {
     text-decoration-line: none;
     padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #d06321;
     color: #1b2330; 
     text-transform: uppercase; 
@@ -59,6 +120,6 @@ nav a
 
 nav a:hover 
 {
-    color: #1b2330;
-    border-bottom: 3px solid #1b2330;
+    color: aliceblue;
+    border-bottom: 3px solid aliceblue;
 }
