@@ -138,3 +138,18 @@ h1
 {
     width: 500px;
 }
+
+#New
+{
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.inew
+{
+    width: 500px;
+}
