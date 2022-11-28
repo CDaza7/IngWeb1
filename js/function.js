@@ -27,6 +27,7 @@ const restaurantes = [
 
 const restItems = document.querySelector('#restItems');
 
+//Funcion para mostrar las cards con los restaurantes
 function mostrarRest(){
     restaurantes.forEach((info) => {
 
@@ -69,5 +70,4 @@ function mostrarRest(){
         restItems.appendChild(miRest);    
     })
 }
-
 mostrarRest();
